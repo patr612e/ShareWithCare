@@ -17,7 +17,7 @@ game {
 /************* STARTSIDE ****************/
 
 #start_screen {
-    background-image: url("Startskaerm_ny.svg");
+    background-image: url("Startskaerm_ny_2.svg");
     background-repeat: no-repeat;
     position: absolute;
     width: 100%;
@@ -27,7 +27,6 @@ game {
 
 
 #play_button {
-    display: none;
     background-image: url("spil_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,7 +39,6 @@ game {
 
 
 #settings_button {
-    display: none;
     background-image: url("indstillinger_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -54,6 +52,7 @@ game {
 /************** SETTINGSKÆRM **************/
 
 #settings {
+    display: none;
     background-image: url("indstillinger_skaerm.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -142,23 +141,22 @@ game {
     background-image: url("introduktion_skaerm.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 66vw;
+    height: 43vw;
     position: absolute;
-    left: 29vw;
+    left: 18vw;
     top: 2.9vw;
 }
 
 #videre_knap {
-    display: none;
     background-image: url("videre_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 10vw;
+    width: 20vw;
+    height: 8vw;
     position: absolute;
-    left: 50vw;
-    top: 50vw;
+    left: 23vw;
+    top: 30.2vw;
 }
 
 
@@ -179,11 +177,11 @@ game {
     background-image: url("gem_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 20vw;
+    width: 8vw;
+    height: 9vw;
     position: absolute;
-    left: 70vw;
-    top: 20vw;
+    left: 69.5vw;
+    top: 12vw;
 }
 
 #slet1 {
@@ -191,11 +189,11 @@ game {
     background-image: url("slet_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 20vw;
+    width: 8vw;
+    height: 9vw;
     position: absolute;
-    left: 70vw;
-    top: 30vw;
+    left: 69.5vw;
+    top: 22vw;
 }
 
 #videresend1 {
@@ -203,11 +201,11 @@ game {
     background-image: url("videresend_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 20vw;
+    width: 10vw;
+    height: 8vw;
     position: absolute;
-    left: 70vw;
-    top: 40vw;
+    left: 68.7vw;
+    top: 33vw;
 }
 
 
@@ -216,11 +214,11 @@ game {
     background-image: url("dilemma_1_korrekt.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 66vw;
+    height: 43vw;
     position: absolute;
-    left: 30vw;
-    top: 5vw;
+    left: 18vw;
+    top: 2.9vw;
 }
 
 #forkert1 {
@@ -228,11 +226,11 @@ game {
     background-image: url("dilemma_1_forkert.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 66vw;
+    height: 43vw;
     position: absolute;
-    left: 30vw;
-    top: 5vw;
+    left: 18vw;
+    top: 2.9vw;
 }
 
 #videre1 {
@@ -240,11 +238,11 @@ game {
     background-image: url("videre_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 10vw;
+    width: 20vw;
+    height: 8vw;
     position: absolute;
-    left: 50vw;
-    top: 60vw;
+    left: 42vw;
+    top: 32vw;
 }
 
 /************** EMAIL 2 ********************/
@@ -259,6 +257,79 @@ game {
     background-size: cover;
 }
 
+#gem2 {
+    display: none;
+    background-image: url("gem_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 9vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 12vw;
+}
+
+#slet2 {
+    display: none;
+    background-image: url("slet_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 9vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 22vw;
+}
+
+#videresend2 {
+    display: none;
+    background-image: url("videresend_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10vw;
+    height: 8vw;
+    position: absolute;
+    left: 68.7vw;
+    top: 33vw;
+}
+
+
+#korrekt2 {
+    display: none;
+    background-image: url("dilemma_2_korrekt.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66vw;
+    height: 43vw;
+    position: absolute;
+    left: 18vw;
+    top: 2.9vw;
+}
+
+#forkert2 {
+    display: none;
+    background-image: url("dilemma_2_forkert.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66vw;
+    height: 43vw;
+    position: absolute;
+    left: 18vw;
+    top: 2.9vw;
+}
+
+#videre2 {
+    display: none;
+    background-image: url("videre_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 8vw;
+    position: absolute;
+    left: 42vw;
+    top: 32vw;
+}
+
 /************** EMAIL 3 ********************/
 
 #game_background3 {
@@ -271,6 +342,79 @@ game {
     background-size: cover;
 }
 
+#gem3 {
+    display: none;
+    background-image: url("gem_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 9vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 12vw;
+}
+
+#slet3 {
+    display: none;
+    background-image: url("slet_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 8vw;
+    height: 9vw;
+    position: absolute;
+    left: 69.5vw;
+    top: 22vw;
+}
+
+#videresend3 {
+    display: none;
+    background-image: url("videresend_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 10vw;
+    height: 8vw;
+    position: absolute;
+    left: 68.7vw;
+    top: 33vw;
+}
+
+
+#korrekt3 {
+    display: none;
+    background-image: url("dilemma_3_korrekt.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66vw;
+    height: 43vw;
+    position: absolute;
+    left: 18vw;
+    top: 2.9vw;
+}
+
+#forkert3 {
+    display: none;
+    background-image: url("dilemma_3_forkert.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 66vw;
+    height: 43vw;
+    position: absolute;
+    left: 18vw;
+    top: 2.9vw;
+}
+
+#videre3 {
+    display: none;
+    background-image: url("videre_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 8vw;
+    position: absolute;
+    left: 42vw;
+    top: 32vw;
+}
+
 /************* SLUTSKÆRME *****************/
 
 
@@ -279,23 +423,61 @@ game {
     background-image: url("slutskaerm_faengsel.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 88vw;
+    height: 36vw;
     position: absolute;
-    left: 50vw;
-    top: 50vw;
+    left: 7vw;
+    top: 9vw;
 }
+
+#spiligen1 {
+    display: none;
+    background-image: url("spil_igen_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 7vw;
+    position: absolute;
+    left: 33vw;
+    top: 24vw;
+}
+
+#privatsnak1 {}
 
 #fri {
     display: none;
     background-image: url("slutskaerm_fri.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 94vw;
+    height: 50vw;
     position: absolute;
-    left: 50vw;
-    top: 50vw;
+    left: 1vw;
+    top: -3vw;
+}
+
+#spiligen2 {
+    display: none;
+    background-image: url("spil_igen_knap.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 7vw;
+    position: absolute;
+    left: 42vw;
+    top: 37vw;
+}
+
+#privatsnak1 {
+    display: none;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 7vw;
+    position: absolute;
+    left: 42vw;
+    top: 37vw;
 }
 
 
@@ -304,35 +486,11 @@ game {
     background-image: url("slutskaerm_plet.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 61vw;
-    height: 42vw;
+    width: 92vw;
+    height: 35vw;
     position: absolute;
-    left: 50vw;
-    top: 50vw;
-}
-
-#spiligen1 {
-    display: none;
-    background-image: url("spil_igen_knap.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 40vw;
-    height: 10vw;
-    position: absolute;
-    left: 50vw;
-    top: 50vw;
-}
-
-#spiligen2 {
-    display: none;
-    background-image: url("spil_igen_knap.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 40vw;
-    height: 10vw;
-    position: absolute;
-    left: 50vw;
-    top: 50vw;
+    left: 3vw;
+    top: 9vw;
 }
 
 #spiligen3 {
@@ -340,13 +498,14 @@ game {
     background-image: url("spil_igen_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 40vw;
-    height: 10vw;
+    width: 20vw;
+    height: 7vw;
     position: absolute;
-    left: 50vw;
-    top: 50vw;
+    left: 35vw;
+    top: 23vw;
 }
 
+#privatsnak1 {}
 
 /************** ANIMATIONER ****************/
 
@@ -375,4 +534,8 @@ game {
     100% {
         transform: scale(1);
     }
+}
+
+.blur {
+    filter: blur(5px) brightness(80%);
 }
