@@ -420,11 +420,11 @@ game {
     background-image: url("privatsnak_logo.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 14vw;
-    height: 10vw;
+    width: 16vw;
+    height: 12vw;
     position: absolute;
-    left: 58vw;
-    top: 32vw;
+    left: 62vw;
+    top: 20vw;
 }
 
 #fri {
@@ -453,8 +453,8 @@ game {
     background-image: url("privatsnak_logo.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 14vw;
-    height: 10vw;
+    width: 16vw;
+    height: 12vw;
     position: absolute;
     left: 68vw;
     top: 34vw;
@@ -487,11 +487,11 @@ game {
     background-image: url("privatsnak_logo.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 14vw;
-    height: 10vw;
+    width: 16vw;
+    height: 12vw;
     position: absolute;
-    left: 68vw;
-    top: 34vw;
+    left: 64vw;
+    top: 20vw;
 }
 
 /************** ANIMATIONER ****************/

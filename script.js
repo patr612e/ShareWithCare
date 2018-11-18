@@ -154,6 +154,8 @@ function hideInstructions() {
     nyMail_1();
 }
 
+"use strict";
+let points = 0;
 
 //*********** EMAIL_1 *************************
 
@@ -194,6 +196,8 @@ function visKorrekt_1() {
     document.querySelector("#game_elements1").classList.add("blur");
     document.querySelector("#korrekt1").classList.remove("hide");
     document.querySelector("#videre1").classList.remove("hide");
+
+    points++;
 
     document.querySelector("#videre1").addEventListener("click", hideNyMail_1);
 }
@@ -257,6 +261,8 @@ function visKorrekt_2() {
     document.querySelector("#korrekt2").classList.remove("hide");
     document.querySelector("#videre2").classList.remove("hide");
 
+    points++;
+
     document.querySelector("#videre2").addEventListener("click", hideNyMail_2);
 }
 
@@ -317,6 +323,8 @@ function visKorrekt_3() {
     document.querySelector("#korrekt3").classList.remove("hide");
     document.querySelector("#videre3").classList.remove("hide");
 
+    points++;
+
     document.querySelector("#videre3").addEventListener("click", hideNyMail_3);
 }
 
@@ -342,11 +350,17 @@ function hideNyMail_3() {
 
 function gameStatus() {
 
-    // if else point
+    if (points <= 1) {
+        visFaengsel();
+    }
 
-    // visFaengsel();
-    // visFri();
-    // visPlet();
+    if (points == 2) {
+        visPlet();
+    }
+
+    if (points == 3) {
+        visFri();
+    }
 
 }
 
