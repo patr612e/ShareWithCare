@@ -52,7 +52,6 @@ game {
 /************** SETTINGSKÆRM **************/
 
 #settings {
-    display: none;
     background-image: url("indstillinger_skaerm.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -137,7 +136,6 @@ game {
 /************** INTROSKRÆRM ****************/
 
 #intro_skaerm {
-    display: none;
     background-image: url("introduktion_skaerm.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -163,7 +161,6 @@ game {
 /************** EMAIL 1 ********************/
 
 #game_background1 {
-    display: none;
     background-image: url("Scene_1.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -173,7 +170,6 @@ game {
 }
 
 #gem1 {
-    display: none;
     background-image: url("gem_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -185,7 +181,6 @@ game {
 }
 
 #slet1 {
-    display: none;
     background-image: url("slet_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -197,7 +192,6 @@ game {
 }
 
 #videresend1 {
-    display: none;
     background-image: url("videresend_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -210,7 +204,6 @@ game {
 
 
 #korrekt1 {
-    display: none;
     background-image: url("dilemma_1_korrekt.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -222,7 +215,6 @@ game {
 }
 
 #forkert1 {
-    display: none;
     background-image: url("dilemma_1_forkert.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -234,7 +226,6 @@ game {
 }
 
 #videre1 {
-    display: none;
     background-image: url("videre_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -248,7 +239,6 @@ game {
 /************** EMAIL 2 ********************/
 
 #game_background2 {
-    display: none;
     background-image: url("Scene_2_ny.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -258,7 +248,6 @@ game {
 }
 
 #gem2 {
-    display: none;
     background-image: url("gem_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -270,7 +259,6 @@ game {
 }
 
 #slet2 {
-    display: none;
     background-image: url("slet_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -282,7 +270,6 @@ game {
 }
 
 #videresend2 {
-    display: none;
     background-image: url("videresend_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -295,7 +282,6 @@ game {
 
 
 #korrekt2 {
-    display: none;
     background-image: url("dilemma_2_korrekt.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -307,7 +293,6 @@ game {
 }
 
 #forkert2 {
-    display: none;
     background-image: url("dilemma_2_forkert.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -319,7 +304,6 @@ game {
 }
 
 #videre2 {
-    display: none;
     background-image: url("videre_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -333,7 +317,6 @@ game {
 /************** EMAIL 3 ********************/
 
 #game_background3 {
-    display: none;
     background-image: url("Scene_3_ny.svg");
     background-repeat: no-repeat;
     position: absolute;
@@ -343,7 +326,6 @@ game {
 }
 
 #gem3 {
-    display: none;
     background-image: url("gem_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -355,7 +337,6 @@ game {
 }
 
 #slet3 {
-    display: none;
     background-image: url("slet_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -367,7 +348,6 @@ game {
 }
 
 #videresend3 {
-    display: none;
     background-image: url("videresend_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -380,7 +360,6 @@ game {
 
 
 #korrekt3 {
-    display: none;
     background-image: url("dilemma_3_korrekt.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -392,7 +371,6 @@ game {
 }
 
 #forkert3 {
-    display: none;
     background-image: url("dilemma_3_forkert.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -404,7 +382,6 @@ game {
 }
 
 #videre3 {
-    display: none;
     background-image: url("videre_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -417,9 +394,7 @@ game {
 
 /************* SLUTSKÆRME *****************/
 
-
 #faengsel {
-    display: none;
     background-image: url("slutskaerm_faengsel.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -431,7 +406,6 @@ game {
 }
 
 #spiligen1 {
-    display: none;
     background-image: url("spil_igen_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -442,10 +416,18 @@ game {
     top: 24vw;
 }
 
-#privatsnak1 {}
+#privatsnak1 {
+    background-image: url("privatsnak_logo.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 10vw;
+    position: absolute;
+    left: 58vw;
+    top: 32vw;
+}
 
 #fri {
-    display: none;
     background-image: url("slutskaerm_fri.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -457,7 +439,6 @@ game {
 }
 
 #spiligen2 {
-    display: none;
     background-image: url("spil_igen_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -468,21 +449,19 @@ game {
     top: 37vw;
 }
 
-#privatsnak1 {
-    display: none;
-    background-image: url("");
+#privatsnak2 {
+    background-image: url("privatsnak_logo.svg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 20vw;
-    height: 7vw;
+    width: 14vw;
+    height: 10vw;
     position: absolute;
-    left: 42vw;
-    top: 37vw;
+    left: 68vw;
+    top: 34vw;
 }
 
 
 #plet {
-    display: none;
     background-image: url("slutskaerm_plet.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -494,7 +473,6 @@ game {
 }
 
 #spiligen3 {
-    display: none;
     background-image: url("spil_igen_knap.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -505,7 +483,16 @@ game {
     top: 23vw;
 }
 
-#privatsnak1 {}
+#privatsnak3 {
+    background-image: url("privatsnak_logo.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 14vw;
+    height: 10vw;
+    position: absolute;
+    left: 68vw;
+    top: 34vw;
+}
 
 /************** ANIMATIONER ****************/
 
