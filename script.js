@@ -7,13 +7,7 @@ let showSettingsSound = true;
 
 function sidenVises() {
     console.log("sidenVises");
-
-    document.querySelector("#spiligen1").removeEventListener("click", sidenVises);
-    document.querySelector("#spiligen2").removeEventListener("click", sidenVises);
-    document.querySelector("#spiligen3").removeEventListener("click", sidenVises);
-
     showStart();
-
 }
 
 function showStart() {
@@ -162,6 +156,8 @@ let points = 0;
 
 function nyMail_1() {
     console.log("nyMail_1");
+
+    points = 0;
 
     document.querySelector("#game_background1").classList.remove("hide");
     document.querySelector("#game_elements1").classList.remove("hide")
@@ -370,21 +366,36 @@ function visFaengsel() {
     console.log("visFaengsel")
     document.querySelector("#faengsel").classList.remove("hide");
 
-    document.querySelector("#spiligen1").addEventListener("click", sidenVises);
+    document.querySelector("#spiligen1").addEventListener("click", hideSlut);
 }
 
 function visFri() {
     console.log("visFri")
     document.querySelector("#fri").classList.remove("hide");
 
-    document.querySelector("#spiligen2").addEventListener("click", sidenVises);
+    document.querySelector("#spiligen2").addEventListener("click", hideSlut);
 }
 
 function visPlet() {
     console.log("visPlet")
     document.querySelector("#plet").classList.remove("hide");
 
-    document.querySelector("#spiligen3").addEventListener("click", sidenVises);
+    document.querySelector("#spiligen3").addEventListener("click", hideSlut);
 }
 
 //************* GAMEOVER SLUT *******************
+
+function hideSlut() {
+    document.querySelector("#spiligen1").removeEventListener("click", hideSlut);
+    document.querySelector("#spiligen2").removeEventListener("click", hideSlut);
+    document.querySelector("#spiligen3").removeEventListener("click", hideSlut);
+
+    document.querySelector("#faengsel").classList.add("hide");
+    document.querySelector("#fri").classList.add("hide");
+    document.querySelector("#plet").classList.add("hide");
+    document.querySelector("#game_background3").classList.add("hide");
+    document.querySelector("#game_elements3").classList.add("hide");
+
+
+    sidenVises();
+}
