@@ -346,7 +346,10 @@ function hideNyMail_3() {
 
 function gameStatus() {
 
-    if (points <= 1) {
+    if (points == 0) {
+        visFaengsel();
+    }
+    if (points == 1) {
         visFaengsel();
     }
 
