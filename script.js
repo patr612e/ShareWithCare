@@ -152,7 +152,7 @@ function showInstructions() {
     document.querySelector("#intro").classList.remove("hide");
 
     document.querySelector("#music_mp3").play();
-    document.querySelector("#music_mp3").volume = 0.5;
+    document.querySelector("#music_mp3").volume = 0.25;
 
     document.querySelector("#videre_knap").addEventListener("click", hideInstructions);
 
@@ -412,7 +412,10 @@ function visFaengsel() {
     document.querySelector("#spiligen1").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak1").addEventListener("click", openInNewTab);
 
+    document.querySelector("#music_mp3").volume = 0.25;
     document.querySelector("#door").play();
+    document.querySelector("#door").volume = 0.7;
+
 }
 
 function visFri() {
@@ -422,7 +425,9 @@ function visFri() {
     document.querySelector("#spiligen2").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak2").addEventListener("click", openInNewTab);
 
+    document.querySelector("#music_mp3").volume = 0.25;
     document.querySelector("#cheer").play();
+    document.querySelector("#cheer").volume = 0.20;
 }
 
 function visPlet() {
@@ -432,8 +437,9 @@ function visPlet() {
     document.querySelector("#spiligen3").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak3").addEventListener("click", openInNewTab);
 
+    document.querySelector("#music_mp3").volume = 0.25;
     document.querySelector("#stamp").play();
-    document.querySelector("#stamp").volume = 2.5;
+
 }
 
 
