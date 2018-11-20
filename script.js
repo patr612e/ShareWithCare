@@ -27,6 +27,8 @@ function showSettings() {
     console.log("showSettings");
 
     document.querySelector("#settings_button").removeEventListener("click", showSettings);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#settings").classList.remove("hide");
 
@@ -39,6 +41,8 @@ function showSettings() {
 
 function toggleMusic() {
     console.log("toggleMusic");
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     if (showSettingsMusic == true) {
         showSettingsMusic = false;
@@ -61,7 +65,7 @@ function musicOff() {
     document.querySelector("#music_sprite").classList.remove("on_off");
     document.querySelector("#music_sprite").classList.add("off");
 
-    // document.querySelector("#music_mp3").pause();
+    document.querySelector("#music_mp3").pause();
 }
 
 function musicOn() {
@@ -71,12 +75,13 @@ function musicOn() {
     document.querySelector("#music_sprite").classList.remove("off_on");
     document.querySelector("#music_sprite").classList.add("on");
 
-    // document.querySelector("#music_mp3").play();
+    document.querySelector("#music_mp3").play();
 }
 
 
 function toggleSound() {
     console.log("toggleSound");
+    document.querySelector("#click_sound").play();
 
     if (showSettingsSound == true) {
         showSettingsSound = false;
@@ -99,7 +104,7 @@ function soundOff() {
     document.querySelector("#sound_sprite").classList.remove("on_off");
     document.querySelector("#sound_sprite").classList.add("off");
 
-    //document.querySelector("#sound_mp3").muted = true;
+    document.querySelector("#click_sound").muted = true;
 }
 
 function soundOn() {
@@ -109,13 +114,15 @@ function soundOn() {
     document.querySelector("#sound_sprite").classList.remove("off_on");
     document.querySelector("#sound_sprite").classList.add("on");
 
-    //document.querySelector("#sound_mp3").muted = false;
+    document.querySelector("#click_sound").muted = false;
 }
 
 
 function hideSettings() {
     console.log("hideSettings");
     document.querySelector("#close_settings").removeEventListener("click", hideSettings);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
     document.querySelector("#settings").classList.add("hide");
 
     showStart();
@@ -126,6 +133,9 @@ function hideSettings() {
 
 function hideStart() {
     console.log("hideStart")
+    document.querySelector("#play_button").removeEventListener("click", hideStart);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
     document.querySelector("#start").classList.add("hide");
 
     showInstructions();
@@ -134,6 +144,10 @@ function hideStart() {
 function showInstructions() {
     console.log("showInstructions")
     document.querySelector("#intro").classList.remove("hide");
+
+    document.querySelector("#music_mp3").play();
+    document.querySelector("#music_mp3").volume = 0.5;
+
     document.querySelector("#videre_knap").addEventListener("click", hideInstructions);
 
 }
@@ -141,6 +155,8 @@ function showInstructions() {
 function hideInstructions() {
     console.log("hideInstructions")
     document.querySelector("#videre_knap").removeEventListener("click", hideInstructions);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#intro").classList.add("hide");
     document.querySelector("#start_screen").classList.add("hide");
@@ -173,6 +189,8 @@ function visForkert_1() {
 
     document.querySelector("#gem1").removeEventListener("click", visForkert_1);
     document.querySelector("#videresend1").removeEventListener("click", visForkert_1);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background1").classList.add("blur");
     document.querySelector("#game_elements1").classList.add("blur");
@@ -187,6 +205,8 @@ function visKorrekt_1() {
     console.log("visKorrekt_1");
 
     document.querySelector("#slet1").removeEventListener("click", visKorrekt_1);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background1").classList.add("blur");
     document.querySelector("#game_elements1").classList.add("blur");
@@ -202,6 +222,8 @@ function hideNyMail_1() {
     console.log("hideNyMail_1");
 
     document.querySelector("#videre1").removeEventListener("click", hideNyMail_1);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background1").classList.add("hide");
     document.querySelector("#game_elements1").classList.add("hide");
@@ -236,6 +258,8 @@ function visForkert_2() {
 
     document.querySelector("#gem2").removeEventListener("click", visForkert_2);
     document.querySelector("#videresend2").removeEventListener("click", visForkert_2);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background2").classList.add("blur");
     document.querySelector("#game_elements2").classList.add("blur");
@@ -251,6 +275,8 @@ function visKorrekt_2() {
     console.log("visKorrekt_2")
 
     document.querySelector("#slet2").removeEventListener("click", visKorrekt_2);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background2").classList.add("blur");
     document.querySelector("#game_elements2").classList.add("blur");
@@ -266,6 +292,8 @@ function hideNyMail_2() {
     console.log("hideNyMail_1");
 
     document.querySelector("#videre2").removeEventListener("click", hideNyMail_2);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background2").classList.add("hide");
     document.querySelector("#game_elements2").classList.add("hide");
@@ -299,6 +327,8 @@ function visForkert_3() {
 
     document.querySelector("#slet3").removeEventListener("click", visForkert_3);
     document.querySelector("#videresend3").removeEventListener("click", visForkert_3);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background3").classList.add("blur");
     document.querySelector("#game_elements3").classList.add("blur");
@@ -313,6 +343,8 @@ function visKorrekt_3() {
     console.log("visKorrekt_3")
 
     document.querySelector("#gem3").removeEventListener("click", visKorrekt_3);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background3").classList.add("blur");
     document.querySelector("#game_elements3").classList.add("blur");
@@ -328,6 +360,8 @@ function hideNyMail_3() {
     console.log("hideNyMail_1");
 
     document.querySelector("#videre3").removeEventListener("click", hideNyMail_3);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#game_background3").classList.add("blur");
     document.querySelector("#game_elements3").classList.add("blur");
@@ -392,6 +426,8 @@ function hideSlut() {
     document.querySelector("#spiligen1").removeEventListener("click", hideSlut);
     document.querySelector("#spiligen2").removeEventListener("click", hideSlut);
     document.querySelector("#spiligen3").removeEventListener("click", hideSlut);
+    document.querySelector("#click_sound").play();
+    document.querySelector("#click_sound").currentTime = 0;
 
     document.querySelector("#faengsel").classList.add("hide");
     document.querySelector("#fri").classList.add("hide");
