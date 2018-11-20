@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
+
 }
 
 #screen {
@@ -35,6 +36,7 @@ game {
     height: 8vw;
     left: 26vw;
     top: 12vw;
+    cursor: pointer;
 }
 
 
@@ -47,6 +49,7 @@ game {
     height: 8vw;
     left: 43vw;
     top: 12vw;
+    cursor: pointer;
 }
 
 /************** SETTINGSKÆRM **************/
@@ -71,6 +74,7 @@ game {
     background-image: url("toggle_sprite.svg");
     display: inline-block;
     position: absolute;
+    cursor: pointer;
 
 }
 
@@ -130,6 +134,7 @@ game {
     left: 58vw;
     top: 1.4vw;
     z-index: 6;
+    cursor: pointer;
 }
 
 
@@ -155,6 +160,7 @@ game {
     position: absolute;
     left: 23vw;
     top: 30.2vw;
+    cursor: pointer;
 }
 
 
@@ -178,6 +184,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 12vw;
+    cursor: pointer;
 }
 
 #slet1 {
@@ -189,6 +196,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 22vw;
+    cursor: pointer;
 }
 
 #videresend1 {
@@ -200,6 +208,7 @@ game {
     position: absolute;
     left: 68.7vw;
     top: 33vw;
+    cursor: pointer;
 }
 
 
@@ -234,6 +243,7 @@ game {
     position: absolute;
     left: 42vw;
     top: 32vw;
+    cursor: pointer;
 }
 
 /************** EMAIL 2 ********************/
@@ -256,6 +266,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 12vw;
+    cursor: pointer;
 }
 
 #slet2 {
@@ -267,6 +278,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 22vw;
+    cursor: pointer;
 }
 
 #videresend2 {
@@ -278,6 +290,7 @@ game {
     position: absolute;
     left: 68.7vw;
     top: 33vw;
+    cursor: pointer;
 }
 
 
@@ -312,6 +325,7 @@ game {
     position: absolute;
     left: 42vw;
     top: 32vw;
+    cursor: pointer;
 }
 
 /************** EMAIL 3 ********************/
@@ -334,6 +348,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 12vw;
+    cursor: pointer;
 }
 
 #slet3 {
@@ -345,6 +360,7 @@ game {
     position: absolute;
     left: 69.5vw;
     top: 22vw;
+    cursor: pointer;
 }
 
 #videresend3 {
@@ -356,6 +372,7 @@ game {
     position: absolute;
     left: 68.7vw;
     top: 33vw;
+    cursor: pointer;
 }
 
 
@@ -390,6 +407,7 @@ game {
     position: absolute;
     left: 42vw;
     top: 32vw;
+    cursor: pointer;
 }
 
 /************* SLUTSKÆRME *****************/
@@ -414,6 +432,7 @@ game {
     position: absolute;
     left: 33vw;
     top: 24vw;
+    cursor: pointer;
 }
 
 #privatsnak1 {
@@ -425,6 +444,7 @@ game {
     position: absolute;
     left: 62vw;
     top: 20vw;
+    cursor: pointer;
 }
 
 #fri {
@@ -447,6 +467,7 @@ game {
     position: absolute;
     left: 42vw;
     top: 37vw;
+    cursor: pointer;
 }
 
 #privatsnak2 {
@@ -458,6 +479,7 @@ game {
     position: absolute;
     left: 68vw;
     top: 34vw;
+    cursor: pointer;
 }
 
 
@@ -481,6 +503,7 @@ game {
     position: absolute;
     left: 35vw;
     top: 23vw;
+    cursor: pointer;
 }
 
 #privatsnak3 {
@@ -492,6 +515,7 @@ game {
     position: absolute;
     left: 64vw;
     top: 20vw;
+    cursor: pointer;
 }
 
 /************** ANIMATIONER ****************/

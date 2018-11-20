@@ -404,6 +404,7 @@ function visFaengsel() {
     document.querySelector("#faengsel").classList.remove("hide");
 
     document.querySelector("#spiligen1").addEventListener("click", hideSlut);
+    document.querySelector("#privatsnak1").addEventListener("click", openInNewTab);
 }
 
 function visFri() {
@@ -411,6 +412,7 @@ function visFri() {
     document.querySelector("#fri").classList.remove("hide");
 
     document.querySelector("#spiligen2").addEventListener("click", hideSlut);
+    document.querySelector("#privatsnak2").addEventListener("click", openInNewTab);
 }
 
 function visPlet() {
@@ -418,7 +420,15 @@ function visPlet() {
     document.querySelector("#plet").classList.remove("hide");
 
     document.querySelector("#spiligen3").addEventListener("click", hideSlut);
+    document.querySelector("#privatsnak3").addEventListener("click", openInNewTab);
 }
+
+
+function openInNewTab() {
+
+    window.location.replace("http://www.privatsnak.dk");
+}
+
 
 //************* GAMEOVER SLUT *******************
 
@@ -428,6 +438,15 @@ function hideSlut() {
     document.querySelector("#spiligen3").removeEventListener("click", hideSlut);
     document.querySelector("#click_sound").play();
     document.querySelector("#click_sound").currentTime = 0;
+
+    document.querySelector("#game_background1").classList.remove("blur");
+    document.querySelector("#game_elements1").classList.remove("blur");
+
+    document.querySelector("#game_background2").classList.remove("blur");
+    document.querySelector("#game_elements2").classList.remove("blur");
+
+    document.querySelector("#game_background3").classList.remove("blur");
+    document.querySelector("#game_elements3").classList.remove("blur");
 
     document.querySelector("#faengsel").classList.add("hide");
     document.querySelector("#fri").classList.add("hide");
