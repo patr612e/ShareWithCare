@@ -105,6 +105,9 @@ function soundOff() {
     document.querySelector("#sound_sprite").classList.add("off");
 
     document.querySelector("#click_sound").muted = true;
+    document.querySelector("#stamp").muted = true;
+    document.querySelector("#door").muted = true;
+    document.querySelector("#cheer").muted = true;
 }
 
 function soundOn() {
@@ -115,6 +118,9 @@ function soundOn() {
     document.querySelector("#sound_sprite").classList.add("on");
 
     document.querySelector("#click_sound").muted = false;
+    document.querySelector("#stamp").muted = false;
+    document.querySelector("#door").muted = false;
+    document.querySelector("#cheer").muted = false;
 }
 
 
@@ -405,6 +411,8 @@ function visFaengsel() {
 
     document.querySelector("#spiligen1").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak1").addEventListener("click", openInNewTab);
+
+    document.querySelector("#door").play();
 }
 
 function visFri() {
@@ -413,6 +421,8 @@ function visFri() {
 
     document.querySelector("#spiligen2").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak2").addEventListener("click", openInNewTab);
+
+    document.querySelector("#cheer").play();
 }
 
 function visPlet() {
@@ -421,6 +431,9 @@ function visPlet() {
 
     document.querySelector("#spiligen3").addEventListener("click", hideSlut);
     document.querySelector("#privatsnak3").addEventListener("click", openInNewTab);
+
+    document.querySelector("#stamp").play();
+    document.querySelector("#stamp").volume = 2.5;
 }
 
 
