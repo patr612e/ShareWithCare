@@ -66,7 +66,7 @@ function musicOff() {
     document.querySelector("#music_sprite").classList.remove("on_off");
     document.querySelector("#music_sprite").classList.add("off");
 
-    document.querySelector("#music_mp3").pause();
+    document.querySelector("#music_mp3").muted = true;
 }
 
 function musicOn() {
@@ -77,6 +77,7 @@ function musicOn() {
     document.querySelector("#music_sprite").classList.add("on");
 
     document.querySelector("#music_mp3").play();
+    document.querySelector("#music_mp3").volume = 0.10;
 }
 
 
@@ -109,6 +110,7 @@ function soundOff() {
     document.querySelector("#stamp").muted = true;
     document.querySelector("#door").muted = true;
     document.querySelector("#cheer").muted = true;
+    document.querySelector("#email_sound").muted = true;
 }
 
 function soundOn() {
